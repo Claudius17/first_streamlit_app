@@ -52,7 +52,7 @@ def get_fruit_load_list():
     return my_cur.fetchall()
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
-streamlite.write('Thanks for adding ',add_my_fruit)
+streamlit.write('Thanks for adding ',add_my_fruit)
 
 # Add a button to load the fruit
 if streamlit.button('Get Fruit Load List'):
